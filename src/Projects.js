@@ -74,6 +74,7 @@ class Projects extends React.Component {
               <img
                 className="activator"
                 src={require('./images/Foodist.png')}
+                alt="food"
               />
             </div>
             <div className="card-content">
@@ -104,7 +105,11 @@ class Projects extends React.Component {
                 comments up and down and the highest rated comments for each
                 recipe are shown first.
               </p>
-              <a href="https://github.com/CRHarding/Foodist" target="_blank">
+              <a
+                href="https://github.com/CRHarding/Foodist"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="material-icons" style={{ cursor: 'pointer' }}>
                   settings
                 </i>Github
@@ -118,6 +123,7 @@ class Projects extends React.Component {
               <img
                 className="activator"
                 src={require('./images/AppATite.png')}
+                alt="App A Tite"
               />
             </div>
             <div className="card-content">
@@ -149,7 +155,11 @@ class Projects extends React.Component {
                 better opinion of a restaraunt without having to dig through the
                 quagmire of Yelp...
               </p>
-              <a href="https://github.com/CRHarding/appatite" target="_blank">
+              <a
+                href="https://github.com/CRHarding/appatite"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="material-icons" style={{ cursor: 'pointer' }}>
                   settings
                 </i>Github
@@ -163,6 +173,7 @@ class Projects extends React.Component {
               <img
                 className="activator"
                 src={require('./images/CaseyBook.png')}
+                alt="Casey Book"
               />
             </div>
             <div className="card-content">
@@ -194,7 +205,11 @@ class Projects extends React.Component {
                 users, write on users walls, comment on users comments on their
                 walls, and delete their account.
               </p>
-              <a href="https://github.com/CRHarding/CaseyBook" target="_blank">
+              <a
+                href="https://github.com/CRHarding/CaseyBook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="material-icons" style={{ cursor: 'pointer' }}>
                   settings
                 </i>Github
@@ -208,6 +223,7 @@ class Projects extends React.Component {
               <img
                 className="activator"
                 src={require('./images/WaiterApp.png')}
+                alt="Waiter App"
               />
             </div>
             <div className="card-content">
@@ -238,6 +254,7 @@ class Projects extends React.Component {
               <a
                 href="https://github.com/britt-ryant/waiter_app_ruby"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="material-icons" style={{ cursor: 'pointer' }}>
                   settings
