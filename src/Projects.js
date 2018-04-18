@@ -68,7 +68,7 @@ class Projects extends React.Component {
   renderProjects() {
     return (
       <div className="row">
-        <div className="col s6">
+        <div className="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
               <img
@@ -112,7 +112,7 @@ class Projects extends React.Component {
             </div>
           </div>
         </div>
-        <div class="col s6">
+        <div class="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
               <img
@@ -157,7 +157,7 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-        <div class="col s6">
+        <div class="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
               <img
@@ -202,7 +202,7 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-        <div class="col s6">
+        <div class="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
               <img
