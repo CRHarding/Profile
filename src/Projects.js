@@ -270,7 +270,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}>
+        <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}><i className="material-icons">add</i>
           Projects
         </h2>
         {this.state.showProjects ? this.renderProjects() : ''}
