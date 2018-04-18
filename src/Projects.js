@@ -85,9 +85,6 @@ class Projects extends React.Component {
                 onClick={this.toggleFoodist}
                 style={{ cursor: 'pointer' }}
               >
-                <span className="card-title activator grey-text text-darken-4">
-                  <i className="material-icons right">more_vert</i>
-                </span>
                 YouAreFoodist : React, Redux, Rails
               </h5>
             </div>
@@ -105,9 +102,7 @@ class Projects extends React.Component {
                 recipe are shown first.
               </p>
               <a href="https://github.com/CRHarding/Foodist" target="_blank">
-                <i className="material-icons" style={{ cursor: 'pointer' }}>
-                  settings
-                </i>Github
+                Github
               </a>
             </div>
           </div>
@@ -129,9 +124,6 @@ class Projects extends React.Component {
                 onClick={this.toggleFoodist}
                 style={{ cursor: 'pointer' }}
               >
-                <span className="card-title activator grey-text text-darken-4">
-                  <i className="material-icons right">more_vert</i>
-                </span>
                 App-A-Tite : React, Express, Node
               </h5>
             </div>
@@ -150,9 +142,7 @@ class Projects extends React.Component {
                   dig through the quagmire of Yelp...
                 </p>
                 <a href="https://github.com/CRHarding/appatite" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
+                  Github
                 </a>
               </div>
             </div>
@@ -174,9 +164,6 @@ class Projects extends React.Component {
                 onClick={this.toggleFoodist}
                 style={{ cursor: 'pointer' }}
               >
-                <span className="card-title activator grey-text text-darken-4">
-                  <i className="material-icons right">more_vert</i>
-                </span>
                 CaseyBook : Express, Node
               </h5>
             </div>
@@ -195,9 +182,7 @@ class Projects extends React.Component {
                   on users comments on their walls, and delete their account.
                 </p>
                 <a href="https://github.com/CRHarding/CaseyBook" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
+                  Github
                 </a>
               </div>
             </div>
@@ -219,9 +204,6 @@ class Projects extends React.Component {
                 onClick={this.toggleFoodist}
                 style={{ cursor: 'pointer' }}
               >
-                <span className="card-title activator grey-text text-darken-4">
-                  <i className="material-icons right">more_vert</i>
-                </span>
                 Waiter-App : Ruby, Rails
               </h5>
             </div>
@@ -237,9 +219,7 @@ class Projects extends React.Component {
                   sytems have.
                 </p>
                 <a href="https://github.com/britt-ryant/waiter_app_ruby" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
+                  Github
                 </a>
               </div>
           </div>
@@ -252,7 +232,6 @@ class Projects extends React.Component {
     return (
       <div>
         <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}>
-          <i className="material-icons">add</i>Projects
         </h2>
         {this.state.showProjects ? this.renderProjects() : ''}
       </div>
