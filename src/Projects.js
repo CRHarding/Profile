@@ -140,23 +140,23 @@ class Projects extends React.Component {
               <span class="card-title grey-text text-darken-4">
                 Card Title<i class="material-icons right">close</i>
               </span>{' '}
-                <p className="flow-text">
-                  This app was created to solve the current problem of
-                  Yelp-Fatigue. Visitors will be able to read and review their
-                  favorite/least favorite restaraunts. Reviews posted on a
-                  particular restaraunt will feature 3rd party reviews from
-                  sites such as yelp and google reviews. It allows the users
-                  to form a better opinion of a restaraunt without having to
-                  dig through the quagmire of Yelp...
-                </p>
-                <a href="https://github.com/CRHarding/appatite" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
-                </a>
-              </div>
+              <p className="flow-text">
+                This app was created to solve the current problem of
+                Yelp-Fatigue. Visitors will be able to read and review their
+                favorite/least favorite restaraunts. Reviews posted on a
+                particular restaraunt will feature 3rd party reviews from sites
+                such as yelp and google reviews. It allows the users to form a
+                better opinion of a restaraunt without having to dig through the
+                quagmire of Yelp...
+              </p>
+              <a href="https://github.com/CRHarding/appatite" target="_blank">
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  settings
+                </i>Github
+              </a>
             </div>
           </div>
+        </div>
         <div class="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
@@ -185,23 +185,23 @@ class Projects extends React.Component {
               <span class="card-title grey-text text-darken-4">
                 Card Title<i class="material-icons right">close</i>
               </span>{' '}
-                <p className="flow-text">
-                  CaseyBook is a rough clone of the popular social media site,
-                  Facebook...only without the data mining / selling. I went
-                  onto Facebook one day after buying a pair of shoes on Amazon
-                  and saw nothing but shoe ads...I got sick of it, so I made
-                  this app. The user will have the ability to create a new
-                  account, friend other users, write on users walls, comment
-                  on users comments on their walls, and delete their account.
-                </p>
-                <a href="https://github.com/CRHarding/CaseyBook" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
-                </a>
-              </div>
+              <p className="flow-text">
+                CaseyBook is a rough clone of the popular social media site,
+                Facebook...only without the data mining / selling. I went onto
+                Facebook one day after buying a pair of shoes on Amazon and saw
+                nothing but shoe ads...I got sick of it, so I made this app. The
+                user will have the ability to create a new account, friend other
+                users, write on users walls, comment on users comments on their
+                walls, and delete their account.
+              </p>
+              <a href="https://github.com/CRHarding/CaseyBook" target="_blank">
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  settings
+                </i>Github
+              </a>
             </div>
           </div>
+        </div>
         <div class="col s8">
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
@@ -230,18 +230,20 @@ class Projects extends React.Component {
               <span class="card-title grey-text text-darken-4">
                 Card Title<i class="material-icons right">close</i>
               </span>{' '}
-                <p className="flow-text">
-                  As a server for twelve years I know full well the
-                  frustration of a bad Point of Service system. This app was
-                  made to solve a lot of the problems that most popular POS
-                  sytems have.
-                </p>
-                <a href="https://github.com/britt-ryant/waiter_app_ruby" target="_blank">
-                  <i className="material-icons" style={{ cursor: 'pointer' }}>
-                    settings
-                  </i>Github
-                </a>
-              </div>
+              <p className="flow-text">
+                As a server for twelve years I know full well the frustration of
+                a bad Point of Service system. This app was made to solve a lot
+                of the problems that most popular POS sytems have.
+              </p>
+              <a
+                href="https://github.com/britt-ryant/waiter_app_ruby"
+                target="_blank"
+              >
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  settings
+                </i>Github
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -252,7 +254,7 @@ class Projects extends React.Component {
     return (
       <div>
         <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}>
-          <i className="material-icons">add</i>Projects
+          Projects
         </h2>
         {this.state.showProjects ? this.renderProjects() : ''}
       </div>
@@ -262,7 +264,7 @@ class Projects extends React.Component {
 
 export default Projects;
 
-{/* <div class="col s12">
+/* <div class="col s12">
   <div class="card-image waves-effect waves-block waves-light">
     <div>
       <h5 onClick={this.togglePartyHouse} style={{ cursor: 'pointer' }}>
@@ -338,4 +340,4 @@ export default Projects;
       )}
     </div>
   </div>
-</div> */}
+</div> */
