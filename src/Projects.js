@@ -114,6 +114,7 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
+              <a href="https://youarefoodist.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
             </div>
           </div>
         </div>
@@ -164,6 +165,7 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
+              <a href="https://app-a-tite.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
             </div>
           </div>
         </div>
@@ -214,6 +216,7 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
+              <a href="https://caseybook.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
             </div>
           </div>
         </div>
@@ -232,7 +235,7 @@ class Projects extends React.Component {
                 activator
                 grey-text
                 text-darken-4
-                onClick={this.toggleFoodist}
+                onClick={this.toggleWaiterApp}
                 style={{ cursor: 'pointer' }}
               >
                 <span className="card-title activator grey-text text-darken-4">
@@ -260,6 +263,7 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
+              <a href="https://waiter-app-rails.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
             </div>
           </div>
         </div>
