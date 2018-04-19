@@ -114,7 +114,15 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
-              <a href="https://youarefoodist.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
+              <a
+                href="https://youarefoodist.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  add_to_queue
+                </i>See Live
+              </a>
             </div>
           </div>
         </div>
@@ -165,7 +173,15 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
-              <a href="https://app-a-tite.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
+              <a
+                href="https://app-a-tite.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  add_to_queue
+                </i>See Live
+              </a>
             </div>
           </div>
         </div>
@@ -216,7 +232,15 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
-              <a href="https://caseybook.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
+              <a
+                href="https://caseybook.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  add_to_queue
+                </i>See Live
+              </a>
             </div>
           </div>
         </div>
@@ -263,7 +287,15 @@ class Projects extends React.Component {
                   settings
                 </i>Github
               </a>
-              <a href="https://waiter-app-rails.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="material-icons" style={{ cursor: 'pointer' }}>add_to_queue</i>See Live</a>
+              <a
+                href="https://waiter-app-rails.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="material-icons" style={{ cursor: 'pointer' }}>
+                  add_to_queue
+                </i>See Live
+              </a>
             </div>
           </div>
         </div>
@@ -274,7 +306,8 @@ class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}><i className="material-icons">add</i>
+        <h2 onClick={this.toggleProjects} style={{ cursor: 'pointer' }}>
+          <i className="material-icons">add</i>
           Projects
         </h2>
         {this.state.showProjects ? this.renderProjects() : ''}
