@@ -7,7 +7,8 @@ const About = () => {
         className="flow-text center grey-text text-darken-1"
         style={{ fontSize: '15px' }}
       >
-        I am a trained fiction editor, writer, bartender, server, jazz drummer, barista, passionate bread baker, and full stack specialist.
+        I am a trained fiction editor, writer, bartender, server, jazz drummer,
+        barista, passionate bread baker, and full stack specialist.
       </p>
       <p
         className="flow-text center grey-text text-darken-1"
