@@ -4,19 +4,20 @@ const Projects = () => {
   return (
     <div className="container">
       <p
-        className="center flow-text center grey-text text-darken-1"
-        style={{ fontSize: '30px', fontFamily: 'Script12 BT' }}
+        className="center flow-text grey-text text-darken-1"
       >
-        Projects
+        <span style={{ fontSize: '40px', fontStyle: 'bold', fontFamily: 'Dawning of a New Day' }}>Projects</span>
+
       </p>
+
       <ul className="collapsible">
         <li>
-          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px' }}>
+          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px', fontFamily: 'Anonymous Pro' }}>
             YouAreFoodist: React, Redux, Rails
-            <i className="material-icons right">more_vert</i>
+            <i className="material-icons right">dehaze</i>
           </div>
           <div className="collapsible-body">
-            <span>
+            <span style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}>
               Have you ever looked up a recipe only to have to scroll through
               five hundred comments to make sure that it's worthwhile to invest
               your time, energy, and money into making? This app acts as the
@@ -29,6 +30,7 @@ const Projects = () => {
               href="https://github.com/CRHarding/Foodist"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 settings
@@ -38,6 +40,7 @@ const Projects = () => {
               href="https://youarefoodist.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 add_to_queue
@@ -46,12 +49,12 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px' }}>
+          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px', fontFamily: 'Anonymous Pro' }}>
             App-A-Tite : React, Express, Node
-            <i className="material-icons right">more_vert</i>
+            <i className="material-icons right">dehaze</i>
           </div>
           <div className="collapsible-body">
-            <span>
+            <span style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}>
               This app was created to solve the current problem of Yelp-Fatigue.
               Visitors will be able to read and review their favorite/least
               favorite restaraunts. Reviews posted on a particular restaraunt
@@ -64,6 +67,7 @@ const Projects = () => {
               href="https://github.com/CRHarding/appatite"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 settings
@@ -73,6 +77,7 @@ const Projects = () => {
               href="https://app-a-tite.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 add_to_queue
@@ -81,12 +86,12 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px' }}>
+          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px', fontFamily: 'Anonymous Pro' }}>
             CaseyBook : Express, Node
-            <i className="material-icons right">more_vert</i>
+            <i className="material-icons right">dehaze</i>
           </div>
           <div className="collapsible-body">
-            <span>
+            <span style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}>
               CaseyBook is a rough clone of the popular social media site,
               Facebook...only without the data mining / selling. I went onto
               Facebook one day after buying a pair of shoes on Amazon and saw
@@ -100,6 +105,7 @@ const Projects = () => {
               href="https://github.com/CRHarding/CaseyBook"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 settings
@@ -109,6 +115,7 @@ const Projects = () => {
               href="https://caseybook.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 add_to_queue
@@ -117,12 +124,12 @@ const Projects = () => {
           </div>
         </li>
         <li>
-          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px' }}>
+          <div className="collapsible-header grey-text text-darken-1" style={{ fontSize: '20px', fontFamily: 'Anonymous Pro' }}>
             Waiter-App : Ruby, Rails
-            <i className="material-icons right">more_vert</i>
+            <i className="material-icons right">dehaze</i>
           </div>
           <div className="collapsible-body">
-            <span>
+            <span style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}>
               As a server for twelve years I know full well the frustration of a
               bad Point of Service system. This app was made to solve a lot of
               the problems that most popular POS systems have.
@@ -132,6 +139,7 @@ const Projects = () => {
               href="https://github.com/britt-ryant/waiter_app_ruby"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 settings
@@ -141,6 +149,7 @@ const Projects = () => {
               href="https://waiter-app-rails.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               <i className="material-icons" style={{ cursor: 'pointer' }}>
                 add_to_queue

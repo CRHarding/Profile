@@ -7,7 +7,7 @@ const Header = () => {
         <div className="center"><i className="material-icons">face</i></div>
         <h1
           className="brand-logo center"
-          style={{ fontFamily: 'Script12 BT', verticalAlign: 'bottom' }}
+          style={{ fontFamily: 'Dawning of a New Day', verticalAlign: 'bottom', fontSize: '40px' }}
         >
           Casey Harding
         </h1>
@@ -17,6 +17,7 @@ const Header = () => {
               href="https://www.linkedin.com/in/casey-harding/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               LinkedIn
             </a>
@@ -26,6 +27,7 @@ const Header = () => {
               href="https://github.com/CRHarding"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
             >
               Github
             </a>
