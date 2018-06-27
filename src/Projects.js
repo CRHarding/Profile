@@ -145,16 +145,6 @@ const Projects = () => {
                 settings
               </i>Github
             </a>
-            <a
-              href="https://waiter-app-rails.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
-            >
-              <i className="material-icons" style={{ cursor: 'pointer' }}>
-                add_to_queue
-              </i>See Live
-            </a>
           </div>
         </li>
       </ul>
