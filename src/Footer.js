@@ -8,13 +8,12 @@ const Footer = () => {
           <div className="col l12 s12">
             <h5
               className="white-text"
-              style={{ fontSize: '30px', fontFamily: 'Dawning of a New Day' }}
+              style={{ fontSize: '30px' }}
             >
               Thanks for visiting!
             </h5>
             <h5
               className="white-text"
-              style={{ fontFamily: 'Dawning of a New Day' }}
             >
               Links
             </h5>
@@ -25,7 +24,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/casey-harding/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
+                  style={{ fontSize: '15px' }}
                 >
                   LinkedIn
                 </a>
@@ -36,7 +35,7 @@ const Footer = () => {
                   href="https://github.com/CRHarding"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ fontSize: '15px', fontFamily: 'Anonymous Pro' }}
+                  style={{ fontSize: '15px' }}
                 >
                   Github
                 </a>
